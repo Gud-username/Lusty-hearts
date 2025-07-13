@@ -8,10 +8,10 @@
 --- VERSION: 1.2
 --- BADGE_COLOR: FF6368
 
-local atlas_key = 'lust_atlas' -- Format: PREFIX_KEY
+local atlas_key = 'smol_atlas' -- Format: PREFIX_KEY
 -- See end of file for notes
-local atlas_path = 'lusty_lc.png' -- Filename for the image in the asset folder
-local atlas_path_hc = 'lusty_hc.png' -- Filename for the high-contrast version of the texture, if existing
+local atlas_path = 'smol_lc.png' -- Filename for the image in the asset folder
+local atlas_path_hc = 'smol_hc.png' -- Filename for thef high-contrast version of the texture, if existing
 
 local suits = {'hearts', 'clubs', 'diamonds', 'spades'} -- Which suits to replace
 local ranks = {'Jack', 'Queen', "King", "Ace", "10", "9", "8", "7", "6", "5", "4", "3", "2"} -- Which ranks to replace
