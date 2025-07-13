@@ -1,0 +1,12 @@
+{
+	"id": "smolcards",
+	"name": "Smol's cards",
+	"author": ["Smol lusty joker"],
+	"description": "Adds silly little doodles to your playing cards.",
+	"prefix": "smolcards",
+	"badge_colour": "FFF000",,
+	"dependencies": [
+	],
+	"main_file": "Smol.lua",
+	"version": "1.2"
+}
