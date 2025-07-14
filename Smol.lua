@@ -21,7 +21,7 @@ local description = {
     clubs = "WIP",
     diamonds = "WIP",
     spades = "People of thesus",
-
+}
 -----------------------------------------------------------
 -- You should only need to change things above this line --
 -----------------------------------------------------------
@@ -49,23 +49,11 @@ for _, suit in ipairs(suits) do
         key = suit.."_skin",
         suit = suit:gsub("^%l", string.upper),
         ranks = ranks,
-		display_ranks = {"Ace", "King", "Queen", "Jack"},
+		display_ranks = {"King", "Queen", "Jack"}, -- These are the ranks preveiwed For
         lc_atlas = atlas_key..'_lc',
         hc_atlas = (atlas_path_hc and atlas_key..'_hc') or atlas_key..'_lc',
         loc_txt = {
-            ['en-us'] = description
-        },
+            ['en-us'] = description[suit]},
         posStyle = 'deck'
     }
 end
-SMODS.Atlas({
-    key = 'modicon',
-    path = 'Modicon.png',
-    px = 34,
-    py = 34
-})
--- Notes:
-
--- The current version of Steamodded has a bug with prefixes in mods including `DeckSkin`s.
--- By manually including the prefix in the atlas' key, this should keep the mod functional
--- even after this bug is fixed.
