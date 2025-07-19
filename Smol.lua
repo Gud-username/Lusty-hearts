@@ -49,7 +49,7 @@ for _, suit in ipairs(suits) do
         key = suit.."_skin",
         suit = suit:gsub("^%l", string.upper),
         ranks = ranks,
-		display_ranks = {"King", "Queen", "Jack"}, -- These are the ranks preveiwed For
+		display_ranks = {"Ace", "King", "Queen", "Jack"}, -- These are the ranks preveiwed For
         lc_atlas = atlas_key..'_lc',
         hc_atlas = (atlas_path_hc and atlas_key..'_hc') or atlas_key..'_lc',
         loc_txt = {
