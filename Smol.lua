@@ -18,9 +18,9 @@ local ranks = {'Jack', 'Queen', "King", "Ace", "10", "9", "8", "7", "6", "5", "4
 
 local description = {
     hearts = "Lusty Joker",
-    clubs = "WIP",
+    clubs = "Games",
     diamonds = "WIP",
-    spades = "People of thesus",
+    spades = "People of theseus",
 }
 -----------------------------------------------------------
 -- You should only need to change things above this line --
