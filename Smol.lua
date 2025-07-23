@@ -4,8 +4,8 @@
 --- PREFIX: smol
 --- MOD_AUTHOR: [Smol Lusty joker]
 --- MOD_DESCRIPTION: Adds silly little doodles to your playing cards
---- LOADER_VERSION_GEQ: 1.2
---- VERSION: 1.2
+--- LOADER_VERSION_GEQ: 0.2
+--- VERSION: 0.2
 --- BADGE_COLOR: FF6368
 
 local atlas_key = 'smol_atlas' -- Format: PREFIX_atlas
