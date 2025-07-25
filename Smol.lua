@@ -18,7 +18,7 @@ local ranks = {'Jack', 'Queen', "King", "Ace", "10", "9", "8", "7", "6", "5", "4
 
 local description = {
     hearts = "Lusty Joker",
-    clubs = "Games",
+    clubs = "WIP",
     diamonds = "WIP",
     spades = "People of theseus",
 }
